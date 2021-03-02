@@ -112,7 +112,7 @@ final class Seeder
 
         Schema::create(self::TRADES_TABLE_NAME, function (Blueprint $table) {
             $table->id();
-            $table->bigInteger('vehicle_id');
+            $table->bigInteger('vehicle_id')->unique();
             $table->bigInteger('inhouse_seller_id');
             $table->bigInteger('buyer_id');
             $table->bigInteger('model_id');
