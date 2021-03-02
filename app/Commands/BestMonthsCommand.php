@@ -24,7 +24,7 @@ class BestMonthsCommand extends Command
     /**
      * @inheritdoc
      */
-    protected $description = 'Command description';
+    protected $description = 'Best months for specified model';
 
     public function handle()
     {
