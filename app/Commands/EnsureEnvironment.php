@@ -12,6 +12,10 @@ trait EnsureEnvironment
 {
     public function ensureEnvironment(bool $forceImport = true): void
     {
+        if (config('database.connections.sqlite.database') === ':memory:') {
+            return;
+        }
+
         $error = 'Please check you environment settings (.env)';
 
         if ((DB::getDefaultConnection() === 'sqlite') && (!File::exists(config('database.connections.sqlite.database')))){
