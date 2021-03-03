@@ -10,11 +10,13 @@ class BestModel
 {
     public function execute($buyerId)
     {
-        if (! is_numeric($buyerId)) {
+        if ($buyerId === null ) {
+            $filter = ' ';
+        } elseif (! is_numeric($buyerId)) {
             throw new InvalidArgumentException("Invalid ID for Buyer");
+        } else {
+            $filter = " where buyer_id = {$buyerId} ";
         }
-
-        $filter = " where buyer_id = {$buyerId} ";
 
         $sql = sprintf($this->prepareRawSql(), $filter);
 
