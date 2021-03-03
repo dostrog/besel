@@ -57,9 +57,9 @@ class Importer
             $row[4] = Carbon::parse($row[4])->toDateString();
             $row[5] = Carbon::parse($row[5])->toDateString();
         } catch (Throwable $throwable) {
-            $error = 'Error parsing date: ' . $throwable->getMessage();
+            $error = 'Error parsing data: ' . $throwable->getMessage();
             Log::error($error, ['row' => $row]);
-            throw new RuntimeException('Error parsing date: ' . $throwable->getMessage());
+            throw new RuntimeException($error);
         }
 
         return $row;

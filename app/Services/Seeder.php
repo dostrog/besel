@@ -112,13 +112,14 @@ final class Seeder
 
         Schema::create(self::TRADES_TABLE_NAME, function (Blueprint $table) {
             $table->id();
-            $table->bigInteger('vehicle_id');
+            $table->bigInteger('vehicle_id')->unique();
             $table->bigInteger('inhouse_seller_id');
             $table->bigInteger('buyer_id');
             $table->bigInteger('model_id');
             $table->dateTime('sale_date');
             $table->dateTime('buy_date');
-            $table->timestamps();
+            $table->timestamp('created_at')->useCurrent();
+            $table->timestamp('updated_at')->useCurrent();
         });
     }
 
@@ -134,7 +135,8 @@ final class Seeder
             $table->bigInteger('id')->unique();
             $table->string('name');
             $table->string('surname');
-            $table->timestamps();
+            $table->timestamp('created_at')->useCurrent();
+            $table->timestamp('updated_at')->useCurrent();
         });
     }
 }

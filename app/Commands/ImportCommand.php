@@ -5,14 +5,13 @@ namespace App\Commands;
 
 use App\Services\Importer;
 use App\Services\Seeder;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\File;
 use LaravelZero\Framework\Commands\Command;
-use RuntimeException;
 use Throwable;
 
 final class ImportCommand extends Command
 {
+    use EnsureEnvironment;
+
     /**
      * {@inheritdoc}
      */
@@ -28,7 +27,7 @@ final class ImportCommand extends Command
     {
         $this->title("Import (with parse) data to DB");
 
-        $this->ensureEnvironment();
+        $this->ensureEnvironment( false );
 
         try {
 
@@ -47,24 +46,5 @@ final class ImportCommand extends Command
         }
 
         return 0;
-    }
-
-    private function ensureEnvironment(): void
-    {
-        $error = 'Please check you environment settings (.env)';
-
-        if ((DB::getDefaultConnection() === 'sqlite') && (!File::exists(config('database.connections.sqlite.database')))){
-            File::makeDirectory('./database');
-            File::put(config('database.connections.sqlite.database'), '');
-
-            return;
-        }
-
-        try {
-            $d = DB::getPdo();
-        } catch (Throwable $throwable) {
-            throw new RuntimeException("No PDO connection. " . $error);
-        }
-
     }
 }
