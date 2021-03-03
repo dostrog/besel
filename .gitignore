@@ -3,6 +3,7 @@
 /build
 /builds/assets
 /builds/logs
+/builds/database
 /builds/awsync-*
 /builds/journal-*
 /.phpstorm.meta.php
