@@ -4,11 +4,7 @@ declare(strict_types=1);
 namespace App\Commands;
 
 use App\Services\BestModel;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\File;
 use LaravelZero\Framework\Commands\Command;
-use RuntimeException;
-use Throwable;
 
 class BestModelCommand extends Command
 {
