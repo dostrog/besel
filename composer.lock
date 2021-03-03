@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf64cec2d379d7962007c95d519741e1",
+    "content-hash": "7941279d2ea9f8e1d2ad6bc53c25e564",
     "packages": [
         {
             "name": "brick/math",
@@ -663,7 +663,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -716,16 +716,16 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
-                "reference": "251f524b01a422e3da51ebead2e75ef90b1ee448"
+                "reference": "1bee3250741ae14d76f5275d510eb5631e2c13b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/cache/zipball/251f524b01a422e3da51ebead2e75ef90b1ee448",
-                "reference": "251f524b01a422e3da51ebead2e75ef90b1ee448",
+                "url": "https://api.github.com/repos/illuminate/cache/zipball/1bee3250741ae14d76f5275d510eb5631e2c13b3",
+                "reference": "1bee3250741ae14d76f5275d510eb5631e2c13b3",
                 "shasum": ""
             },
             "require": {
@@ -769,20 +769,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-01-24T09:49:02+00:00"
+            "time": "2021-02-25T15:10:53+00:00"
         },
         {
             "name": "illuminate/collections",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "3313bb9066ad60d91a3407b3ef02c114e2ecf8eb"
+                "reference": "ecc881c6dce66e22f2c236374f342d41c7ebeb67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/3313bb9066ad60d91a3407b3ef02c114e2ecf8eb",
-                "reference": "3313bb9066ad60d91a3407b3ef02c114e2ecf8eb",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/ecc881c6dce66e22f2c236374f342d41c7ebeb67",
+                "reference": "ecc881c6dce66e22f2c236374f342d41c7ebeb67",
                 "shasum": ""
             },
             "require": {
@@ -823,11 +823,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-02-21T16:09:39+00:00"
+            "time": "2021-03-02T13:34:56+00:00"
         },
         {
             "name": "illuminate/config",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -875,16 +875,16 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
-                "reference": "3b10009e10f4187d922c7a2a51cc36c117a3b3cb"
+                "reference": "38dfe81a5534d259a065d884462dde28d3379c9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/console/zipball/3b10009e10f4187d922c7a2a51cc36c117a3b3cb",
-                "reference": "3b10009e10f4187d922c7a2a51cc36c117a3b3cb",
+                "url": "https://api.github.com/repos/illuminate/console/zipball/38dfe81a5534d259a065d884462dde28d3379c9b",
+                "reference": "38dfe81a5534d259a065d884462dde28d3379c9b",
                 "shasum": ""
             },
             "require": {
@@ -931,11 +931,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-02-02T13:42:30+00:00"
+            "time": "2021-02-26T14:19:51+00:00"
         },
         {
             "name": "illuminate/container",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -986,16 +986,16 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "b91459a9a0bd0de204c3cae6859ebd02dbcee6c6"
+                "reference": "9c7a9868d7485a82663d67109429094c8e4ed56d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/b91459a9a0bd0de204c3cae6859ebd02dbcee6c6",
-                "reference": "b91459a9a0bd0de204c3cae6859ebd02dbcee6c6",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/9c7a9868d7485a82663d67109429094c8e4ed56d",
+                "reference": "9c7a9868d7485a82663d67109429094c8e4ed56d",
                 "shasum": ""
             },
             "require": {
@@ -1030,20 +1030,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-01-20T14:18:13+00:00"
+            "time": "2021-02-26T13:17:03+00:00"
         },
         {
             "name": "illuminate/database",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "f4d512a530a04f8da30b5222f54c56545ff336ed"
+                "reference": "a2be80ba829258b9b44fa43443aa81653604b931"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/f4d512a530a04f8da30b5222f54c56545ff336ed",
-                "reference": "f4d512a530a04f8da30b5222f54c56545ff336ed",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/a2be80ba829258b9b44fa43443aa81653604b931",
+                "reference": "a2be80ba829258b9b44fa43443aa81653604b931",
                 "shasum": ""
             },
             "require": {
@@ -1098,20 +1098,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-02-18T16:17:19+00:00"
+            "time": "2021-03-02T00:08:47+00:00"
         },
         {
             "name": "illuminate/events",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
-                "reference": "676787d8c54988465e7e7d95f15a7d1a23c2643b"
+                "reference": "b371a0ddd2cb396a275a60ee85cea062e8a7d30f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/events/zipball/676787d8c54988465e7e7d95f15a7d1a23c2643b",
-                "reference": "676787d8c54988465e7e7d95f15a7d1a23c2643b",
+                "url": "https://api.github.com/repos/illuminate/events/zipball/b371a0ddd2cb396a275a60ee85cea062e8a7d30f",
+                "reference": "b371a0ddd2cb396a275a60ee85cea062e8a7d30f",
                 "shasum": ""
             },
             "require": {
@@ -1153,11 +1153,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-02-02T13:42:30+00:00"
+            "time": "2021-02-26T13:17:03+00:00"
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -1219,16 +1219,16 @@
         },
         {
             "name": "illuminate/http",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
-                "reference": "c021ccf7299532703c68069351411d423ffe759c"
+                "reference": "8dabbf02e26cc3a29b6c01ca9c3e2369925d58b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/http/zipball/c021ccf7299532703c68069351411d423ffe759c",
-                "reference": "c021ccf7299532703c68069351411d423ffe759c",
+                "url": "https://api.github.com/repos/illuminate/http/zipball/8dabbf02e26cc3a29b6c01ca9c3e2369925d58b6",
+                "reference": "8dabbf02e26cc3a29b6c01ca9c3e2369925d58b6",
                 "shasum": ""
             },
             "require": {
@@ -1273,11 +1273,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-02-21T16:08:38+00:00"
+            "time": "2021-03-02T00:09:48+00:00"
         },
         {
             "name": "illuminate/log",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/log.git",
@@ -1326,7 +1326,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -1372,7 +1372,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -1420,7 +1420,7 @@
         },
         {
             "name": "illuminate/session",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
@@ -1476,16 +1476,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "b745df9ef3120d173368fdf56eecc1fc40a9f90c"
+                "reference": "0f59c467c1b612122488a262e7f9fb32b30df36a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/b745df9ef3120d173368fdf56eecc1fc40a9f90c",
-                "reference": "b745df9ef3120d173368fdf56eecc1fc40a9f90c",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/0f59c467c1b612122488a262e7f9fb32b30df36a",
+                "reference": "0f59c467c1b612122488a262e7f9fb32b30df36a",
                 "shasum": ""
             },
             "require": {
@@ -1540,11 +1540,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-02-21T15:57:40+00:00"
+            "time": "2021-02-26T13:17:27+00:00"
         },
         {
             "name": "illuminate/testing",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/testing.git",
@@ -5411,410 +5411,6 @@
                 "source": "https://github.com/nikic/PHP-Parser/tree/v4.10.4"
             },
             "time": "2020-12-20T10:01:03+00:00"
-        },
-        {
-            "name": "pestphp/pest",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pestphp/pest.git",
-                "reference": "fa130167857fe5daed0c281f1f14cd4a88c56184"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/fa130167857fe5daed0c281f1f14cd4a88c56184",
-                "reference": "fa130167857fe5daed0c281f1f14cd4a88c56184",
-                "shasum": ""
-            },
-            "require": {
-                "nunomaduro/collision": "^5.0",
-                "pestphp/pest-plugin": "^1.0",
-                "pestphp/pest-plugin-coverage": "^1.0",
-                "pestphp/pest-plugin-expectations": "^1.0",
-                "pestphp/pest-plugin-init": "^1.0",
-                "php": "^7.3 || ^8.0",
-                "phpunit/phpunit": ">= 9.3.7 <= 9.5.2"
-            },
-            "require-dev": {
-                "illuminate/console": "^8.0",
-                "illuminate/support": "^8.0",
-                "laravel/dusk": "^6.9.1",
-                "mockery/mockery": "^1.4.1",
-                "pestphp/pest-dev-tools": "dev-master"
-            },
-            "bin": [
-                "bin/pest"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                },
-                "pest": {
-                    "plugins": [
-                        "Pest\\Plugins\\Version"
-                    ]
-                },
-                "laravel": {
-                    "providers": [
-                        "Pest\\Laravel\\PestServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Pest\\": "src/"
-                },
-                "files": [
-                    "src/Functions.php",
-                    "src/Pest.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nuno Maduro",
-                    "email": "enunomaduro@gmail.com"
-                }
-            ],
-            "description": "An elegant PHP Testing Framework.",
-            "keywords": [
-                "framework",
-                "pest",
-                "php",
-                "test",
-                "testing",
-                "unit"
-            ],
-            "support": {
-                "issues": "https://github.com/pestphp/pest/issues",
-                "source": "https://github.com/pestphp/pest/tree/v1.0.2"
-            },
-            "funding": [
-                {
-                    "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66BYDWAT92N6L",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/nunomaduro",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/octoper",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/olivernybroe",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/owenvoke",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/nunomaduro",
-                    "type": "patreon"
-                }
-            ],
-            "time": "2021-02-04T09:15:54+00:00"
-        },
-        {
-            "name": "pestphp/pest-plugin",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pestphp/pest-plugin.git",
-                "reference": "fc8519de148699fe612d9c669be60554cd2db4fa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest-plugin/zipball/fc8519de148699fe612d9c669be60554cd2db4fa",
-                "reference": "fc8519de148699fe612d9c669be60554cd2db4fa",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.1 || ^2.0",
-                "php": "^7.3 || ^8.0"
-            },
-            "conflict": {
-                "pestphp/pest": "<1.0"
-            },
-            "require-dev": {
-                "composer/composer": "^1.10.19",
-                "pestphp/pest": "^1.0",
-                "pestphp/pest-dev-tools": "dev-master"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                },
-                "class": "Pest\\Plugin\\Manager"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Pest\\Plugin\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "The Pest plugin manager",
-            "keywords": [
-                "framework",
-                "manager",
-                "pest",
-                "php",
-                "plugin",
-                "test",
-                "testing",
-                "unit"
-            ],
-            "support": {
-                "source": "https://github.com/pestphp/pest-plugin/tree/v1.0.0"
-            },
-            "funding": [
-                {
-                    "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66BYDWAT92N6L",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/nunomaduro",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/nunomaduro",
-                    "type": "patreon"
-                }
-            ],
-            "time": "2021-01-03T15:53:42+00:00"
-        },
-        {
-            "name": "pestphp/pest-plugin-coverage",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pestphp/pest-plugin-coverage.git",
-                "reference": "50260c8671377a5082a06b9e228a984c13ed199c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest-plugin-coverage/zipball/50260c8671377a5082a06b9e228a984c13ed199c",
-                "reference": "50260c8671377a5082a06b9e228a984c13ed199c",
-                "shasum": ""
-            },
-            "require": {
-                "pestphp/pest-plugin": "^1.0",
-                "php": "^7.3 || ^8.0",
-                "sebastian/environment": "^5.1.2"
-            },
-            "conflict": {
-                "pestphp/pest": "<1.0"
-            },
-            "require-dev": {
-                "pestphp/pest": "^1.0",
-                "pestphp/pest-dev-tools": "dev-master"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                },
-                "pest": {
-                    "plugins": [
-                        "Pest\\PluginCoverage\\Plugin"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Pest\\PluginCoverage\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "The Pest Coverage Plugin",
-            "keywords": [
-                "coverage",
-                "framework",
-                "pest",
-                "php",
-                "plugin",
-                "test",
-                "testing",
-                "unit"
-            ],
-            "support": {
-                "source": "https://github.com/pestphp/pest-plugin-coverage/tree/v1.0.0"
-            },
-            "funding": [
-                {
-                    "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66BYDWAT92N6L",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/nunomaduro",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/nunomaduro",
-                    "type": "patreon"
-                }
-            ],
-            "time": "2021-01-03T15:51:41+00:00"
-        },
-        {
-            "name": "pestphp/pest-plugin-expectations",
-            "version": "v1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pestphp/pest-plugin-expectations.git",
-                "reference": "e543acd6d0ca33c9bdaae05d4dffbfc8c66a0285"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest-plugin-expectations/zipball/e543acd6d0ca33c9bdaae05d4dffbfc8c66a0285",
-                "reference": "e543acd6d0ca33c9bdaae05d4dffbfc8c66a0285",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.3 || ^8.0",
-                "phpunit/phpunit": "^9.0"
-            },
-            "conflict": {
-                "pestphp/pest": "<1.0"
-            },
-            "require-dev": {
-                "pestphp/pest": "^1.0",
-                "pestphp/pest-dev-tools": "dev-master"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Pest\\Expectations\\": "src/"
-                },
-                "files": [
-                    "src/Autoload.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Add expectations testing capabilities to Pest or PHPUnit",
-            "keywords": [
-                "expectations",
-                "framework",
-                "pest",
-                "php",
-                "test",
-                "testing",
-                "unit"
-            ],
-            "support": {
-                "source": "https://github.com/pestphp/pest-plugin-expectations/tree/v1.0.1"
-            },
-            "funding": [
-                {
-                    "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66BYDWAT92N6L",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/nunomaduro",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/nunomaduro",
-                    "type": "patreon"
-                }
-            ],
-            "time": "2021-01-03T16:02:34+00:00"
-        },
-        {
-            "name": "pestphp/pest-plugin-init",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pestphp/pest-plugin-init.git",
-                "reference": "bd6fdb058ba5dc7a9f7f3645ad4e0bdc34cf0026"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest-plugin-init/zipball/bd6fdb058ba5dc7a9f7f3645ad4e0bdc34cf0026",
-                "reference": "bd6fdb058ba5dc7a9f7f3645ad4e0bdc34cf0026",
-                "shasum": ""
-            },
-            "require": {
-                "pestphp/pest-plugin": "^1.0",
-                "php": "^7.3 || ^8.0"
-            },
-            "conflict": {
-                "pestphp/pest": "<1.0"
-            },
-            "require-dev": {
-                "pestphp/pest": "^1.0",
-                "pestphp/pest-dev-tools": "dev-master"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                },
-                "pest": {
-                    "plugins": [
-                        "Pest\\Init\\Plugin"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Pest\\Init\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "The Pest Init plugin",
-            "keywords": [
-                "framework",
-                "init",
-                "pest",
-                "php",
-                "plugin",
-                "test",
-                "testing",
-                "unit"
-            ],
-            "support": {
-                "source": "https://github.com/pestphp/pest-plugin-init/tree/v1.0.0"
-            },
-            "funding": [
-                {
-                    "url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=66BYDWAT92N6L",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/nunomaduro",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/nunomaduro",
-                    "type": "patreon"
-                }
-            ],
-            "time": "2021-01-03T15:47:48+00:00"
         },
         {
             "name": "phar-io/manifest",

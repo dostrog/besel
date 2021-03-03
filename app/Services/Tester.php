@@ -6,6 +6,7 @@ namespace App\Services;
 use Illuminate\Console\OutputStyle;
 use Illuminate\Support\Facades\DB;
 use InvalidArgumentException;
+use Symfony\Component\Console\Helper\Table;
 
 class Tester
 {
@@ -26,14 +27,17 @@ class Tester
 
         $wherePart = $this->getWheres($arguments);
 
-        if ($wherePart === '1') {
-            $this->output->writeln("There are no records with these parameters.");
-            $this->output->newLine();
-
-            return;
-        }
-
         $this->returnWithWhere($wherePart);
+    }
+
+    private function renderTable(array $header, array $rows, string $style = 'box'): void
+    {
+        $table = new Table($this->output);
+        $table
+            ->setStyle($style)
+            ->setHeaders($header)
+            ->setRows($rows);
+        $table->render();
     }
 
     private function returnLastRecord(): void
@@ -45,7 +49,7 @@ class Tester
             'id', 'vehicle_id', 'inhouse_seller_id', 'buyer_id', 'model_id', 'sale_date', 'buy_date'
         ])->toArray()[0]);
 
-        $this->output->table(self::HEADER, [$record]);
+        $this->renderTable(self::HEADER, [$record]);
     }
 
     private function getWheres(array $arguments): string
@@ -104,6 +108,6 @@ class Tester
             $toRows[] = array_values((array)$value);
         });
 
-        $this->output->table(self::HEADER, $toRows);
+        $this->renderTable(self::HEADER, $toRows);
     }
 }

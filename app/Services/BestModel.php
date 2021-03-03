@@ -4,12 +4,17 @@ declare(strict_types=1);
 namespace App\Services;
 
 use Illuminate\Support\Facades\DB;
+use InvalidArgumentException;
 
 class BestModel
 {
     public function execute($buyerId)
     {
-        $filter = (is_numeric($buyerId)) ? " where buyer_id = {$buyerId} " : ' ';
+        if (! is_numeric($buyerId)) {
+            throw new InvalidArgumentException("Invalid ID for Buyer");
+        }
+
+        $filter = " where buyer_id = {$buyerId} ";
 
         $sql = sprintf($this->prepareRawSql(), $filter);
 

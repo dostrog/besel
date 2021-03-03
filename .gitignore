@@ -1,5 +1,6 @@
 /node_modules
 /vendor
+/build
 /builds/assets
 /builds/logs
 /builds/awsync-*
@@ -19,3 +20,4 @@ npm-debug.log
 TODO.md
 journal-*
 /database/database.sqlite
+/.phpunit.cache/
