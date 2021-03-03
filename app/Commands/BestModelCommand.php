@@ -12,6 +12,8 @@ use Throwable;
 
 class BestModelCommand extends Command
 {
+    use EnsureEnvironment;
+
     public const HEADER = ['#', 'Model', 'Quantity', 'Buyer ID', 'Name', 'Surname'];
 
     /**
@@ -41,30 +43,5 @@ class BestModelCommand extends Command
         $this->table(self::HEADER, $models, 'box');
 
         return 0;
-    }
-
-    private function ensureEnvironment()
-    {
-        $error = 'Please check you environment settings (.env)';
-
-        if ((DB::getDefaultConnection() === 'sqlite') && (!File::exists(config('database.connections.sqlite.database')))){
-            File::makeDirectory('./database');
-            File::put(config('database.connections.sqlite.database'), '');
-
-            try {
-                $this->call('import', ['--fromCache' => true]);
-            } catch (Throwable $throwable) {
-                throw new RuntimeException($throwable->getMessage());
-            }
-
-            return;
-        }
-
-        try {
-            $d = DB::getPdo();
-        } catch (Throwable $throwable) {
-            throw new RuntimeException("No PDO connection. " . $error);
-        }
-
     }
 }

@@ -4,14 +4,12 @@ declare(strict_types=1);
 namespace App\Commands;
 
 use App\Services\BestMonths;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\File;
 use LaravelZero\Framework\Commands\Command;
-use RuntimeException;
-use Throwable;
 
 class BestMonthsCommand extends Command
 {
+    use EnsureEnvironment;
+
     public const HEADER = ['Model', 'Quantity', 'Month', 'Year'];
 
     /**
@@ -26,7 +24,7 @@ class BestMonthsCommand extends Command
      */
     protected $description = 'Best months for specified model';
 
-    public function handle()
+    public function handle(): int
     {
         $this->ensureEnvironment();
 
@@ -46,30 +44,5 @@ class BestMonthsCommand extends Command
         $this->table(self::HEADER, $months, 'box');
 
         return 0;
-    }
-
-    private function ensureEnvironment()
-    {
-        $error = 'Please check you environment settings (.env)';
-
-        if ((DB::getDefaultConnection() === 'sqlite') && (!File::exists(config('database.connections.sqlite.database')))){
-            File::makeDirectory('./database');
-            File::put(config('database.connections.sqlite.database'), '');
-
-            try {
-                $this->call('import', ['--fromCache' => true]);
-            } catch (Throwable $throwable) {
-                throw new RuntimeException($throwable->getMessage());
-            }
-
-            return;
-        }
-
-        try {
-            $d = DB::getPdo();
-        } catch (Throwable $throwable) {
-            throw new RuntimeException("No PDO connection. " . $error);
-        }
-
     }
 }
