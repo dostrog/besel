@@ -25,7 +25,7 @@ class AddCommand extends Command
     {ModelId : Model Id (integer)}
     {SaleDate : Sale Date (YYYY-MM-DD)}
     {BuyDate : Buy Date (YYYY-MM-DD)}
-    {--nobatch : Add record in interactive mode}';
+    {--nobatch : Add record in interactive mode (WIP)}';
 
     /**
      * The description of the command.
